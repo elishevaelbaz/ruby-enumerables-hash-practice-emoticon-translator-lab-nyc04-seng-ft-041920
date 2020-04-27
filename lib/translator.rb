@@ -1,5 +1,5 @@
 # require modules here
-require
+require 'translator.rb'
 
 def load_library
   # code goes here
