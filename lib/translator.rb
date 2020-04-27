@@ -17,7 +17,7 @@ end
 
 def get_english_meaning(file_path, emoticon)
   emoticon_hash = load_library(file_path)
-  language emoticon_hash.key(emoticon)
+  emoticon_hash.key(emoticon)
   # emoticon_hash.key(language)
   
 end
