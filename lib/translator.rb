@@ -27,7 +27,7 @@ def get_english_meaning(file_path, emoticon)
   end
       # if it falls out of the loop and never 'returned'
     # it means it is not in the load_library
-    return 
+    return "Sorry, that emoticon was not found"
     
   # language = emoticon_hash.key(emoticon)
   # emoticon_hash.key(language)
