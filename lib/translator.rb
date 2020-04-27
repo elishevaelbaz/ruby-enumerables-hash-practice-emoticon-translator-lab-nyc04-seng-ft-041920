@@ -23,6 +23,8 @@ def get_english_meaning(file_path, emoticon)
     if emoticon_hash[key][:japanese] == emoticon
       return key
     end
+    # if it falls out of the loop and never 'returned'
+    # it means it is not in the load_library
   end
     
     
