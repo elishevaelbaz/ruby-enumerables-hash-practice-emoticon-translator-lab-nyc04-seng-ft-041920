@@ -10,6 +10,8 @@ def load_library(file_path)
       new_hash[name] ={:english => symbol_array[0], :japanese => symbol_array[1]}
   end
   
+  new_hash
+  
   
 end
 
