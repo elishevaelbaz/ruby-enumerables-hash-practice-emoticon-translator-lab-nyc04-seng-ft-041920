@@ -1,7 +1,7 @@
 # require modules here
-require_relative './emoticons.yml'
+require 'yaml'
 
-def load_library
+def load_library()
   # code goes here
 end
 
