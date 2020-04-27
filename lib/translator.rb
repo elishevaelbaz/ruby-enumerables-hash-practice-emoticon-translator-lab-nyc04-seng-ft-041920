@@ -18,9 +18,15 @@ end
 def get_english_meaning(file_path, emoticon)
   emoticon_hash = load_library(file_path)
   
-  emoticon_hash.each
-  language = emoticon_hash.key(emoticon)
-  emoticon_hash.key(language)
+  emoticon_hash.each do |key, value|
+    
+    if key[:japanese] == emoticon
+      key
+    end
+    
+    
+  # language = emoticon_hash.key(emoticon)
+  # emoticon_hash.key(language)
   
 end
 
