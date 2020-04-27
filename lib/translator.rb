@@ -16,4 +16,4 @@ def get_english_meaning
 end
 
 
-puts load_library('emoticons.yml')
+puts load_library('/emoticons.yml')
