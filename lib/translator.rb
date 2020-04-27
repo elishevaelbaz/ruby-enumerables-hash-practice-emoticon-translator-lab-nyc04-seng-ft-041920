@@ -20,9 +20,10 @@ def get_english_meaning(file_path, emoticon)
   
   emoticon_hash.each do |key, value|
     
-    if emoticon_hash[key][:japanese] == emoticon
-      emoticon_hash[key]
-    end
+    puts "key #{key} value #{value}"
+    # if emoticon_hash[key][:japanese] == emoticon
+    #   emoticon_hash[key]
+    # end
   end
     
     
