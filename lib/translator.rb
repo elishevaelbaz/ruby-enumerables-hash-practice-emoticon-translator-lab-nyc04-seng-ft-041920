@@ -3,7 +3,7 @@ require 'yaml'
 
 def load_library(file_path)
   # code goes here
-  YAML.load_file('government.yml')
+  YAML.load_file('file_path')
 
 end
 
