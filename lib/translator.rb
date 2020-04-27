@@ -37,5 +37,3 @@ end
 def get_japanese_emoticon
   
 end
-
-puts get_english_meaning('lib/emoticons.yml', "(＾ｖ＾)")
