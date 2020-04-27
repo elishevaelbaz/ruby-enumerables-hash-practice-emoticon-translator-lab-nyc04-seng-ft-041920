@@ -23,6 +23,7 @@ def get_english_meaning(file_path, emoticon)
     if key[:japanese] == emoticon
       key
     end
+  end
     
     
   # language = emoticon_hash.key(emoticon)
