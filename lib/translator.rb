@@ -28,4 +28,4 @@ def get_japanese_emoticon
   
 end
 
-# puts load_library('lib/emoticons.yml')
+puts get_('lib/emoticons.yml')
