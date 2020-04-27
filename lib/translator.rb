@@ -22,7 +22,7 @@ def get_english_meaning(file_path, emoticon)
     
     puts "key #{key} value #{value}"
     if emoticon_hash[key][:japanese] == emoticon
-    #   emoticon_hash[key]
+      return emoticon_hash[key]
     puts "ELISHEVA"
     end
   end
